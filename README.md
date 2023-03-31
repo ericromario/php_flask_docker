@@ -7,17 +7,6 @@ This repo is a simple application to list student with a webserver (PHP) and API
 ------------
 
 
-## Objectives
-
-The objectives of this practice exam are to ensure that you are able to manage a docker infrastructure, so you will be evaluated about the following
-
-### Themes:
-
-- improve an existed application deployment process
-- versioning your infrastructure release
-- address best practice when implementing docker infrastructure
-- Infrastructure As Code
-
 ## Context
 
 *POZOS* is an IT company located in France that develops software for secondary schools.
@@ -35,6 +24,17 @@ Currently, the application runs on a single server without any scalability or hi
 When POZOS needs to deploy a new version, there is always a problem.
 
 In conclusion, POZOS needs agility on its software farm.
+
+### Tasks:
+
+- Containerise the Flask application 
+- Build run and test the application with a simple curl
+- Create a docker compose file to automate the deployment of the application and its GUI using the php:apache image
+- Test the application again via its GUI
+- create the release 
+- Deploy the private registry and its GUI
+- Push the realese and visualize it
+
 
 ## Infrastructure
 
